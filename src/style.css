@@ -25,5 +25,18 @@ body {
   align-items: center;
   justify-content: center;
 }
+.navbar .navbar-Wrap .navbar-Links {
+  display: flex;
+}
+.navbar .navbar-Wrap .navbar-Links ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  gap: 25px;
+}
 
 /*# sourceMappingURL=style.css.map */

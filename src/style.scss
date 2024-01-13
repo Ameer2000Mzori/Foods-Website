@@ -29,5 +29,20 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+
+    .navbar-Links {
+      display: flex;
+
+      ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        gap: 25px;
+      }
+    }
   }
 }
