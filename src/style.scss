@@ -370,8 +370,15 @@ body {
         justify-content: center;
 
         .meal-Book {
-          height: 250px;
-          width: 150px;
+          height: 450px;
+          width: 250px;
+          background-color: #a79a2d;
+          padding: 1rem;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          justify-content: space-around;
         }
       }
     }
