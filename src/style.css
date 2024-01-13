@@ -100,6 +100,7 @@ body {
   top: 50%;
   left: 10%;
   transition: all 500ms ease-in-out;
+  z-index: 1;
 }
 
 .navbar .nav-Btn-Line .nav-Btn-Box {
@@ -112,6 +113,7 @@ body {
   left: 50%;
   transform: translate(-50%);
   transition: all 100ms ease-in-out;
+  z-index: 1;
 }
 
 .navbar.active {
@@ -121,12 +123,10 @@ body {
 
 .navbar.active .nav-Btn-Line.active {
   height: 65%;
-  z-index: 1;
 }
 
 .navbar.active .nav-Btn-Line.active .nav-Btn-Box {
   top: 90%;
-  z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
@@ -169,9 +169,5 @@ body {
   .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
     font-size: 1rem;
     -webkit-text-stroke: white 0;
-  }
-
-  .nav-Btn-Line {
-    z-index: 1;
   }
 }

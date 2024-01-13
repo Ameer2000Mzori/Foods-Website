@@ -103,6 +103,7 @@ body {
     top: 50%;
     left: 10%;
     transition: all 500ms ease-in-out;
+    z-index: 1;
 
     .nav-Btn-Box {
       background-color: black;
@@ -114,6 +115,7 @@ body {
       left: 50%;
       transform: translate(-50%);
       transition: all 100ms ease-in-out;
+      z-index: 1;
     }
   }
 }
@@ -125,11 +127,9 @@ body {
 
   .nav-Btn-Line.active {
     height: 65%;
-    z-index: 1;
 
     .nav-Btn-Box {
       top: 90%;
-      z-index: 1;
     }
   }
 }
@@ -185,9 +185,5 @@ body {
         }
       }
     }
-  }
-
-  .nav-Btn-Line {
-    z-index: 1;
   }
 }
