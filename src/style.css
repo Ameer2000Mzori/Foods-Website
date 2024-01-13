@@ -441,6 +441,14 @@ body {
   transition: all 250ms ease-in-out;
   overflow: hidden;
 }
+.menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Imgs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Title-Wrap {
   width: 90%;
   text-align: start;

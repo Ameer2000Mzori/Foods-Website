@@ -538,6 +538,15 @@ body {
           transition: all 250ms ease-in-out;
           overflow: hidden;
 
+          .menu-Card-Imgs {
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+          }
+
           .menu-Card-Title-Wrap {
             width: 90%;
             text-align: start;
