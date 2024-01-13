@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lemon&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
-
 body {
   padding: 0;
   margin: 0;
@@ -20,7 +19,6 @@ body {
   background-color: #000;
   z-index: 10;
 }
-
 .navbar .navbar-Wrap {
   width: 90%;
   height: 90%;
@@ -30,11 +28,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .navbar .navbar-Wrap .navbar-Links {
   display: flex;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul {
   display: flex;
   list-style: none;
@@ -45,14 +41,12 @@ body {
   align-items: center;
   gap: 25px;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li {
   opacity: 0;
   display: flex;
   flex-direction: column;
   transition: all 250ms ease-in-out;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li a {
   text-decoration: none;
   font-family: "Nunito", sans-serif;
@@ -63,7 +57,6 @@ body {
   font-weight: 600;
   transition: all 250ms ease-in-out;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
   font-size: 3.1rem;
   font-style: bold;
@@ -72,26 +65,21 @@ body {
   font-weight: 600;
   transition: all 250ms ease-in-out;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li:hover {
   cursor: pointer;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li:hover a {
   color: rgb(82, 81, 81);
   -webkit-text-stroke: rgb(82, 81, 81) 1px;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li:hover #nav-Icons {
   color: rgb(82, 81, 81);
   -webkit-text-stroke: rgb(82, 81, 81) 1px;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li.active {
   display: flex;
   opacity: 1;
 }
-
 .navbar .nav-Btn-Line {
   position: absolute;
   height: 110%;
@@ -101,7 +89,6 @@ body {
   left: 10%;
   transition: all 500ms ease-in-out;
 }
-
 .navbar .nav-Btn-Line .nav-Btn-Box {
   background-color: black;
   height: 50px;
@@ -113,15 +100,12 @@ body {
   transform: translate(-50%);
   transition: all 100ms ease-in-out;
 }
-
 .navbar .nav-Btn-Line:hover {
   cursor: pointer;
 }
-
 .navbar .nav-Btn-Line:hover .nav-Btn-Box {
   filter: drop-shadow(1px 1px 5px black);
 }
-
 .navbar .nav-Btn-Line:hover .nav-Btn-Box:active {
   filter: drop-shadow(1px 1px 5px rgb(190, 189, 189));
 }
@@ -130,12 +114,10 @@ body {
   height: 20vh;
   transform: translateY(-99%);
 }
-
 .navbar.active .nav-Btn-Line.active {
   height: 65%;
   z-index: 1;
 }
-
 .navbar.active .nav-Btn-Line.active .nav-Btn-Box {
   top: 90%;
   z-index: 1;
@@ -145,45 +127,38 @@ body {
   .navbar {
     width: 100%;
   }
-
   .navbar .navbar-Wrap {
     width: 95%;
     height: 90%;
   }
-
   .navbar .navbar-Wrap .navbar-Links ul {
     gap: 35px;
   }
-
   .navbar .navbar-Wrap .navbar-Links ul li a {
     font-size: 1.7rem;
   }
-
   .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
     font-size: 2.1rem;
   }
 }
-
 @media screen and (max-width: 900px) {
   .navbar .navbar-Wrap {
     z-index: 5;
   }
-
   .navbar .navbar-Wrap .navbar-Links ul {
     gap: 25px;
   }
-
   .navbar .navbar-Wrap .navbar-Links ul li a {
     font-size: 1rem;
     -webkit-text-stroke: rgb(88, 15, 15) 0;
   }
-
   .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
     font-size: 1rem;
     -webkit-text-stroke: rgb(88, 15, 15) 0;
   }
-
   .nav-Btn-Line.active {
     z-index: 1;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
