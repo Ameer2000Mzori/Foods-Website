@@ -329,6 +329,11 @@ body {
   height: 100%;
   -o-object-fit: cover;
 }
+.meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Texts-Wrap .meal-Book-Name {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  -webkit-text-stroke: black 1px;
+}
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book::before {
   position: absolute;
   content: "";

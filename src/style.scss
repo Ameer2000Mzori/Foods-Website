@@ -401,6 +401,14 @@ body {
             }
           }
 
+          .meal-Book-Texts-Wrap {
+            .meal-Book-Name {
+              font-family: $fontThree;
+              font-size: 1.5rem;
+              -webkit-text-stroke: black 1px;
+            }
+          }
+
           &::before {
             position: absolute;
             content: "";
