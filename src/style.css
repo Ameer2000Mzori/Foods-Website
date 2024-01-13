@@ -116,4 +116,44 @@ body {
   top: 90%;
 }
 
+@media screen and (max-width: 900px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar .navbar-Wrap {
+    width: 95%;
+    height: 90%;
+  }
+  .navbar .navbar-Wrap .navbar-Links ul {
+    gap: 35px;
+  }
+  .navbar .navbar-Wrap .navbar-Links ul li a {
+    font-size: 1.7rem;
+  }
+  .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
+    font-size: 2.1rem;
+  }
+  .navbar .nav-Btn-Line {
+    position: absolute;
+    height: 110%;
+    background-color: black;
+    width: 5px;
+    top: 50%;
+    left: 10%;
+    transition: all 500ms ease-in-out;
+  }
+  .navbar .nav-Btn-Line .nav-Btn-Box {
+    position: absolute;
+    background-color: black;
+    height: 50px;
+    border-radius: 15px 15px 5px 5px;
+    width: 40px;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 100ms ease-in-out;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
