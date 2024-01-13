@@ -427,3 +427,10 @@ body {
   cursor: pointer;
   transform: translateY(-5%);
 }
+
+@media screen and (max-width: 768px) {
+  .meals .meals-Wrap .meals-Top .meals-Top-Title-Wrap .header-Title-Text {
+    font-size: 2.5rem;
+    -webkit-text-stroke: white 3px;
+  }
+}
