@@ -403,6 +403,15 @@ body {
   height: 30%;
   width: 100%;
 }
+.menu .menu-Wrap .menu-Top .menu-Top-Title-Wrap .menu-Title-Text {
+  font-size: 7rem;
+  -webkit-text-stroke: white 7px;
+  letter-spacing: 2px;
+  margin: 0;
+  filter: drop-shadow(5px 5px 1px black);
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
 .menu .menu-Wrap .menu-Bottom {
   height: 60%;
   width: 100%;
