@@ -310,8 +310,9 @@ body {
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  transform: rotate(2deg);
+  transform: rotate(1deg);
   position: relative;
+  transition: all 250ms ease-in-out;
 }
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book::before {
   position: absolute;
@@ -332,6 +333,10 @@ body {
   height: 10px;
   width: 100%;
   transform: skewX(40deg);
+}
+.meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book:hover {
+  cursor: pointer;
+  transform: translateY(-5%);
 }
 
 /*# sourceMappingURL=style.css.map */

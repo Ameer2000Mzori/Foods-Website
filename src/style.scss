@@ -379,8 +379,9 @@ body {
           text-align: center;
           align-items: center;
           justify-content: space-around;
-          transform: rotate(2deg);
+          transform: rotate(1deg);
           position: relative;
+          transition: all 250ms ease-in-out;
 
           &::before {
             position: absolute;
@@ -402,6 +403,12 @@ body {
             height: 10px;
             width: 100%;
             transform: skewX(40deg);
+          }
+
+          &:hover {
+            cursor: pointer;
+
+            transform: translateY(-5%);
           }
         }
       }
