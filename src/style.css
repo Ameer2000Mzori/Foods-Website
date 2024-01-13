@@ -153,7 +153,6 @@ body {
     -webkit-text-stroke: rgb(88, 15, 15) 0px;
   }
   .nav-Btn-Line.active {
-    height: 100%;
     z-index: 1;
   }
 }
