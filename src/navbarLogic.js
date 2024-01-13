@@ -5,6 +5,7 @@ const navbarEl = document.getElementsByClassName("navbar")[0];
 const liElements = document.querySelectorAll("li");
 
 // gelobal variables
+let liElementInterval;
 
 // functions
 const openNav = () => {
@@ -22,6 +23,7 @@ const removeClassesNav = () => {
 const addClassesNav = () => {
   navbarEl.classList.add("active");
   navBtnLine.classList.add("active");
+  clearInterval(liElementInterval);
   liElements.forEach((liElement) => {
     liElement.classList.remove("active");
   });
@@ -30,7 +32,7 @@ const addClassesNav = () => {
 // show navLinks slowly one by each
 const addLiElementsClasses = () => {
   let liElementsCount = 0;
-  let liElementInterval = setInterval(() => {
+  liElementInterval = setInterval(() => {
     if (liElements.length > liElementsCount) {
       liElements[liElementsCount].classList.add("active");
       liElementsCount++;
