@@ -237,6 +237,7 @@ body {
       text-align: center;
       align-items: center;
       justify-content: center;
+      overflow: hidden;
 
       .header-Title-Text {
         font-size: 7rem;
@@ -253,14 +254,15 @@ body {
         font-size: 15rem;
         position: absolute;
         left: 50%;
-        transform: translate(-50%);
+        top: 50%;
+        transform: translate(-50%, -50%);
         filter: drop-shadow(5px 5px 1px black);
         transition: all 500ms ease-in-out;
       }
 
       #header-Icons:hover {
         opacity: 0;
-        transform: scale(1.1);
+        transform: scale(5.1);
       }
     }
   }
