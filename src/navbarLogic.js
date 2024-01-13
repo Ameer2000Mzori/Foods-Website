@@ -8,15 +8,22 @@ const liElements = document.querySelectorAll("li");
 
 // functions
 const openNav = () => {
-  if (navbarEl.classList.contains("active")) {
-    navbarEl.classList.remove("active");
-    navBtnLine.classList.remove("active");
-    // addLiElementsClasses();
+
+    navbarEl.classList.contains("active") ? removeClassesNav() : addClassesNav()
+  if () {
+
   } else {
     navbarEl.classList.add("active");
     navBtnLine.classList.add("active");
   }
 };
+
+// remove classes from nabars and elements
+const removeClassesNav = ()=>{
+    navbarEl.classList.remove("active");
+    navBtnLine.classList.remove("active");
+    // addLiElementsClasses();
+}
 
 // events
 navBtnBox.addEventListener("click", openNav);
