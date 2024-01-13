@@ -434,6 +434,19 @@ body {
   border: solid white 2px;
   box-shadow: 0.2rem 0.3rem #2748ff, 0.3rem 0.4rem #851212, 0.4rem 0.5rem #838512;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Title-Wrap {
+  width: 90%;
+  text-align: start;
+}
+.menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Title-Wrap .menu-Card-Text-1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  color: white;
 }
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card::before {
   content: "";
