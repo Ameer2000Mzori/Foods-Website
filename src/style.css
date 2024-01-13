@@ -18,7 +18,7 @@ body {
   height: 14vh;
   background-color: #000;
   z-index: 10;
-  transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in;
   transform: translateY(0%);
 }
 
@@ -32,7 +32,7 @@ body {
   justify-content: center;
   position: relative;
   z-index: 5;
-  transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in;
   padding: 15px;
 }
 
@@ -49,14 +49,14 @@ body {
   text-align: center;
   align-items: center;
   gap: 25px;
-  transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in;
 }
 
 .navbar .navbar-Wrap .navbar-Links ul li {
   opacity: 0;
   display: flex;
   flex-direction: column;
-  transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in;
 }
 
 .navbar .navbar-Wrap .navbar-Links ul li a {
@@ -67,7 +67,7 @@ body {
   color: white;
   -webkit-text-stroke: white 1px;
   font-weight: 600;
-  transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in;
 }
 
 .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
@@ -76,7 +76,7 @@ body {
   color: white;
   -webkit-text-stroke: rgb(88, 15, 15) 1px;
   font-weight: 600;
-  transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in;
 }
 
 .navbar .navbar-Wrap .navbar-Links ul li:hover {
@@ -105,7 +105,7 @@ body {
   width: 5px;
   top: 50%;
   left: 10%;
-  transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in;
   z-index: 1;
 }
 
@@ -118,7 +118,7 @@ body {
   top: 100%;
   left: 50%;
   transform: translate(-50%);
-  transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in;
   z-index: 1;
 }
 
@@ -128,7 +128,7 @@ body {
 
 .navbar.active {
   height: 20vh;
-  transform: translateY(-100%);
+  transform: translateY(-65%);
 }
 
 .navbar.active .nav-Btn-Line.active {
