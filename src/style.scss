@@ -105,7 +105,6 @@ body {
     transition: all 500ms ease-in-out;
 
     .nav-Btn-Box {
-      position: absolute;
       background-color: black;
       height: 50px;
       border-radius: 15px 15px 5px 5px;
@@ -134,18 +133,18 @@ body {
 .navbar.active {
   height: 20vh;
   transform: translateY(-99%);
-}
 
-.nav-Btn-Line.active {
-  height: 65%;
-
-  z-index: 1;
-
-  .nav-Btn-Box {
-    top: 90%;
+  .nav-Btn-Line.active {
+    height: 65%;
     z-index: 1;
+
+    .nav-Btn-Box {
+      top: 90%;
+      z-index: 1;
+    }
   }
 }
+
 //  navbar responsvness
 @media screen and (max-width: 900px) {
   .navbar {
@@ -154,6 +153,7 @@ body {
     .navbar-Wrap {
       width: 95%;
       height: 90%;
+
       .navbar-Links {
         ul {
           gap: 35px;
@@ -177,6 +177,7 @@ body {
   .navbar {
     .navbar-Wrap {
       z-index: 5;
+
       .navbar-Links {
         ul {
           gap: 25px;
@@ -184,12 +185,12 @@ body {
           li {
             a {
               font-size: 1rem;
-              -webkit-text-stroke: rgb(88, 15, 15) 0px;
+              -webkit-text-stroke: rgb(88, 15, 15) 0;
             }
 
             #nav-Icons {
               font-size: 1rem;
-              -webkit-text-stroke: rgb(88, 15, 15) 0px;
+              -webkit-text-stroke: rgb(88, 15, 15) 0;
             }
           }
         }
