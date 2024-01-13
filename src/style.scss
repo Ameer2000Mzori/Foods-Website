@@ -343,6 +343,16 @@ body {
         text-align: center;
         align-items: center;
         justify-content: center;
+
+        .header-Title-Text {
+          font-size: 7rem;
+          -webkit-text-stroke: white 5px;
+          letter-spacing: 2px;
+          margin: 0;
+          filter: drop-shadow(5px 5px 1px black);
+          font-family: $fontThree;
+          color: white;
+        }
       }
     }
 
