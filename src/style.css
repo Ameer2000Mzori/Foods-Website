@@ -52,5 +52,12 @@ body {
   -webkit-text-stroke: white 1px;
   font-weight: 600;
 }
+.navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
+  font-size: 2.5rem;
+  font-style: bold;
+  color: white;
+  -webkit-text-stroke: rgb(88, 15, 15) 1px;
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=style.css.map */
