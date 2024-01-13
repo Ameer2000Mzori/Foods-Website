@@ -251,13 +251,12 @@ body {
 
       #header-Icons {
         color: #a79a2d;
+        transform: scale(2);
         font-size: 15rem;
-        position: absolute;
-        left: 45%;
-        transform: translate(-50%) scale(2);
         filter: drop-shadow(5px 5px 1px black);
         transition: all 200ms ease-in-out;
         opacity: 0;
+        position: absolute;
         padding: 0;
         margin: 0;
       }
