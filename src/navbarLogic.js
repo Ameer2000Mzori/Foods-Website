@@ -7,5 +7,16 @@ const liElements = document.querySelectorAll("li");
 // gelobal variables
 
 // functions
+const openNav = () => {
+  if (navbarEl.classList.contains("active")) {
+    navbarEl.classList.remove("active");
+    navBtnLine.classList.remove("active");
+    // addLiElementsClasses();
+  } else {
+    navbarEl.classList.add("active");
+    navBtnLine.classList.add("active");
+  }
+};
 
 // events
+navBtnBox.addEventListener("click", openNav);
