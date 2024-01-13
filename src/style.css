@@ -314,6 +314,14 @@ body {
   position: relative;
   transition: all 250ms ease-in-out;
 }
+.meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Img-Wrap {
+  height: 50%;
+  width: 100%;
+}
+.meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Img-Wrap .meal-Book-Img {
+  height: 100%;
+  -o-object-fit: cover;
+}
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book::before {
   position: absolute;
   content: "";

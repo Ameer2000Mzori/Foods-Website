@@ -383,6 +383,16 @@ body {
           position: relative;
           transition: all 250ms ease-in-out;
 
+          .meal-Book-Img-Wrap {
+            height: 50%;
+            width: 100%;
+
+            .meal-Book-Img {
+              height: 100%;
+              -o-object-fit: cover;
+            }
+          }
+
           &::before {
             position: absolute;
             content: "";
