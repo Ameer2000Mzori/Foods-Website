@@ -407,6 +407,18 @@ body {
               font-size: 1.5rem;
               -webkit-text-stroke: black 1px;
             }
+
+            .meal-Book-Btn {
+              width: 150px;
+              height: 35px;
+              background-color: #333;
+              border-radius: 15px;
+              border: none;
+              font-family: $fontThree;
+              font-size: 1rem;
+              transform: rotate(0.5deg);
+              -webkit-text-stroke: #000 1px;
+            }
           }
 
           &::before {

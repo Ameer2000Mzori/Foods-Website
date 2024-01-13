@@ -334,6 +334,17 @@ body {
   font-size: 1.5rem;
   -webkit-text-stroke: black 1px;
 }
+.meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Texts-Wrap .meal-Book-Btn {
+  width: 150px;
+  height: 35px;
+  background-color: #333;
+  border-radius: 15px;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  transform: rotate(0.5deg);
+  -webkit-text-stroke: #000 1px;
+}
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book::before {
   position: absolute;
   content: "";
