@@ -14,14 +14,14 @@ const openNav = () => {
 // remove classes from nabars and elements
 const removeClassesNav = () => {
   navbarEl.classList.remove("active");
-  //   navBtnLine.classList.remove("active");
+  navBtnLine.classList.remove("active");
   addLiElementsClasses();
 };
 
 // add classes from nabars and elements
 const addClassesNav = () => {
   navbarEl.classList.add("active");
-  //   navBtnLine.classList.add("active");
+  navBtnLine.classList.add("active");
   liElements.forEach((liElement) => {
     liElement.classList.remove("active");
   });
