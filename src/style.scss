@@ -9,3 +9,14 @@ body {
   padding: 0;
   margin: 0;
 }
+//  navbar
+.navbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+}
