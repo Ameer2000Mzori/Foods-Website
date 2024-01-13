@@ -135,7 +135,7 @@ body {
 }
 
 //  navbar responsvness
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .navbar {
     width: 100%;
 
@@ -162,7 +162,7 @@ body {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .navbar {
     .navbar-Wrap {
       z-index: 5;
