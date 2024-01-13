@@ -40,7 +40,7 @@ const addLiElementsClasses = () => {
       clearInterval(liElementInterval);
       liElementsCount = 0;
     }
-  }, 200);
+  }, 100);
 };
 
 // events
