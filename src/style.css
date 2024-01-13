@@ -344,6 +344,11 @@ body {
   font-size: 1rem;
   transform: rotate(0.5deg);
   -webkit-text-stroke: #000 1px;
+  transition: all 250ms ease-in-out;
+}
+.meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Texts-Wrap .meal-Book-Btn:hover {
+  cursor: pointer;
+  background-color: #818181;
 }
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book::before {
   position: absolute;
@@ -367,7 +372,7 @@ body {
 }
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book:hover {
   cursor: pointer;
-  transform: translateY(-10%);
+  transform: translateY(-5%);
 }
 
 /*# sourceMappingURL=style.css.map */
