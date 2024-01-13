@@ -116,19 +116,8 @@ body {
       transition: all 100ms ease-in-out;
     }
   }
-
-  .nav-Btn-Line:hover {
-    cursor: pointer;
-
-    .nav-Btn-Box {
-      filter: drop-shadow(1px 1px 5px black);
-
-      &:active {
-        filter: drop-shadow(1px 1px 5px rgb(190, 189, 189));
-      }
-    }
-  }
 }
+
 // active buttons
 .navbar.active {
   height: 20vh;
@@ -144,6 +133,7 @@ body {
     }
   }
 }
+
 //  navbar responsvness
 @media screen and (max-width: 900px) {
   .navbar {
@@ -184,12 +174,12 @@ body {
           li {
             a {
               font-size: 1rem;
-              -webkit-text-stroke: rgb(88, 15, 15) 0;
+              -webkit-text-stroke: white 0;
             }
 
             #nav-Icons {
               font-size: 1rem;
-              -webkit-text-stroke: rgb(88, 15, 15) 0;
+              -webkit-text-stroke: white 0;
             }
           }
         }
