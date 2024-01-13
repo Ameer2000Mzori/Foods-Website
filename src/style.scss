@@ -318,4 +318,14 @@ body {
   flex-direction: column;
   display: flex;
   background-color: #222;
+
+  .meals-Wrap {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
