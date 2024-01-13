@@ -15,13 +15,27 @@ const openNav = () => {
 const removeClassesNav = () => {
   navbarEl.classList.remove("active");
   navBtnLine.classList.remove("active");
-  // addLiElementsClasses();
+  addLiElementsClasses();
 };
 
+// add classes from nabars and elements
 const addClassesNav = () => {
   navbarEl.classList.add("active");
   navBtnLine.classList.add("active");
 };
 
+// show navLinks slowly one by each
+const addLiElementsClasses = () => {
+  let liElementsCount = 0;
+  let liElementInterval = setInterval(() => {
+    if (liElementsCount < liElements.length) {
+      liElementsCount++;
+      liElements[liElements].classList.remove("active");
+    } else {
+      clearInterval(liElementInterval);
+      liElementsCount = 0;
+    }
+  }, 200);
+};
 // events
 navBtnBox.addEventListener("click", openNav);
