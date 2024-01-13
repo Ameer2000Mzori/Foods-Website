@@ -129,7 +129,7 @@ body {
     }
   }
 }
-
+// active buttons
 .navbar.active {
   height: 20vh;
   transform: translateY(-99%);
@@ -144,7 +144,6 @@ body {
     }
   }
 }
-
 //  navbar responsvness
 @media screen and (max-width: 900px) {
   .navbar {
@@ -198,7 +197,7 @@ body {
     }
   }
 
-  .nav-Btn-Line.active {
+  .nav-Btn-Line {
     z-index: 1;
   }
 }
