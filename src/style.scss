@@ -381,7 +381,8 @@ body {
           justify-content: space-around;
           transform: rotate(1deg);
           position: relative;
-          transition: all 250ms ease-in-out;
+          transition: all 550ms ease-in-out;
+          filter: drop-shadow(15px 15px 15px black);
 
           .meal-Book-Img-Wrap {
             height: 50%;
@@ -418,7 +419,7 @@ body {
           &:hover {
             cursor: pointer;
 
-            transform: translateY(-5%);
+            transform: translateY(-10%);
           }
         }
       }
