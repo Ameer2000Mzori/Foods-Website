@@ -116,9 +116,13 @@ body {
   z-index: 1;
 }
 
+.navbar .nav-Btn-Line:hover {
+  cursor: pointer;
+}
+
 .navbar.active {
   height: 20vh;
-  transform: translateY(-99%);
+  transform: translateY(-100%);
 }
 
 .navbar.active .nav-Btn-Line.active {
@@ -150,6 +154,14 @@ body {
   .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
     font-size: 2.1rem;
   }
+
+  .navbar .nav-Btn-Line.active {
+    height: auto;
+  }
+
+  .navbar .nav-Btn-Line.active .nav-Btn-Box {
+    top: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -169,5 +181,13 @@ body {
   .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
     font-size: 1rem;
     -webkit-text-stroke: white 0;
+  }
+
+  .navbar .nav-Btn-Line.active {
+    height: auto;
+  }
+
+  .navbar .nav-Btn-Line.active .nav-Btn-Box {
+    top: auto;
   }
 }
