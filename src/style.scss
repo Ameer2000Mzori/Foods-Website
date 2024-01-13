@@ -124,6 +124,7 @@ body {
 }
 
 .navbar.active {
+  height: 20vh;
   transform: translateY(-99%);
 }
 
@@ -133,4 +134,12 @@ body {
   .nav-Btn-Box {
     top: 90%;
   }
+}
+//  navbar responsvness
+@media screen and (max-width: 900px) {
+  // size 900px
+}
+
+@media screen and (max-width: 900px) {
+  // size 768px
 }

@@ -105,6 +105,7 @@ body {
 }
 
 .navbar.active {
+  height: 20vh;
   transform: translateY(-99%);
 }
 
