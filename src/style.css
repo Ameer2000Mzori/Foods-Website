@@ -399,5 +399,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+.menu .menu-Wrap .menu-Top {
+  height: 30%;
+  width: 100%;
+}
+.menu .menu-Wrap .menu-Bottom {
+  height: 60%;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
