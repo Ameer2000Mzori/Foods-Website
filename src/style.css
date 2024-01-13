@@ -445,15 +445,22 @@ body {
 }
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Title-Wrap .menu-Card-Text-1 {
   font-family: "Nunito", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
+}
+.menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Title-Wrap .menu-Card-Text-2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 4px;
+  color: white;
+  font-weight: 500;
 }
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card::before {
   content: "";
   position: absolute;
   top: 3rem;
   width: 100px;
-  height: 5px;
+  height: 2px;
   width: 100%;
   left: 0;
   background-color: white;
