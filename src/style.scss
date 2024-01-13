@@ -50,11 +50,13 @@ body {
         text-align: center;
         align-items: center;
         gap: 25px;
-        transition: all 500ms ease-in;
+        transition: all 250ms ease-in;
 
         li {
           opacity: 0;
           display: flex;
+          padding: 0;
+          margin: 0;
           flex-direction: column;
           transition: all 250ms ease-in;
 
@@ -108,7 +110,7 @@ body {
     width: 5px;
     top: 50%;
     left: 10%;
-    transition: all 500ms ease-in;
+    transition: all 250ms ease-in;
     z-index: 1;
 
     .nav-Btn-Box {
@@ -133,7 +135,7 @@ body {
 // active buttons
 .navbar.active {
   height: 20vh;
-  transform: translateY(-65%);
+  transform: translateY(-45%);
 
   .nav-Btn-Line.active {
     height: 65%;
