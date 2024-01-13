@@ -130,7 +130,7 @@ body {
 
 .navbar.active {
   height: 20vh;
-  transform: translateY(-45%);
+  transform: translateY(-55%);
 }
 
 .navbar.active .nav-Btn-Line.active {
