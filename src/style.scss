@@ -23,6 +23,7 @@ body {
   background-color: #000;
   z-index: 10;
   transition: all 500ms ease-in-out;
+  transform: translateY(0%);
 
   .navbar-Wrap {
     width: 90%;
