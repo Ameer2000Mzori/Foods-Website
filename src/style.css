@@ -433,6 +433,17 @@ body {
   display: block;
   border: solid white 2px;
   box-shadow: 0.2rem 0.3rem #2748ff, 0.3rem 0.4rem #851212, 0.4rem 0.5rem #838512;
+  position: relative;
+}
+.menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card::before {
+  content: "";
+  position: absolute;
+  top: 3rem;
+  width: 100px;
+  height: 5px;
+  width: 100%;
+  left: 0;
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
