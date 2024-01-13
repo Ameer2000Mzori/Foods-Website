@@ -134,13 +134,15 @@ body {
   height: 20vh;
   transform: translateY(-99%);
 
-  .nav-Btn-Line.active {
-    height: 65%;
-    z-index: 1;
-
-    .nav-Btn-Box {
-      top: 90%;
+  .navbar {
+    .nav-Btn-Line {
+      height: 65%;
       z-index: 1;
+
+      .nav-Btn-Box {
+        top: 90%;
+        z-index: 1;
+      }
     }
   }
 }
