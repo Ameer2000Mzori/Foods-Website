@@ -179,5 +179,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+.header .header-Wrap .header-Titles-Wrap .header-Title-Text {
+  font-size: 7rem;
+  -webkit-text-stroke: white 7px;
+  letter-spacing: 2px;
+  filter: drop-shadow(5px 5px 1px black);
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
