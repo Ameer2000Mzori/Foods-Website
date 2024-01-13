@@ -309,3 +309,13 @@ body {
     }
   }
 }
+// meals
+.meals {
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  background-color: #222;
+}
