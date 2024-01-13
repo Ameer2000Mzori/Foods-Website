@@ -218,4 +218,16 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width: 1000px) {
+  .header .header-Wrap {
+    gap: 2rem;
+  }
+  .header .header-Wrap .header-Titles-Wrap .header-Title-Text {
+    font-size: 4rem;
+  }
+  .header .header-Wrap .header-Titles-Wrap #header-Icons {
+    font-size: 10rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -272,7 +272,21 @@ body {
 }
 //  header responsvness
 @media screen and (max-width: 1000px) {
-  //1000px
+  .header {
+    .header-Wrap {
+      gap: 2rem;
+
+      .header-Titles-Wrap {
+        .header-Title-Text {
+          font-size: 4rem;
+        }
+
+        #header-Icons {
+          font-size: 10rem;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
