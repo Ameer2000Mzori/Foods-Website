@@ -47,8 +47,9 @@ body {
         gap: 25px;
 
         li {
-          display: flex;
+          display: none;
           flex-direction: column;
+          transition: all 250ms ease-in-out;
 
           a {
             text-decoration: none;
@@ -127,6 +128,10 @@ body {
 .navbar.active {
   height: 20vh;
   transform: translateY(-99%);
+}
+
+li.active {
+  display: flex;
 }
 
 .nav-Btn-Line.active {

@@ -42,8 +42,9 @@ body {
   gap: 25px;
 }
 .navbar .navbar-Wrap .navbar-Links ul li {
-  display: flex;
+  display: none;
   flex-direction: column;
+  transition: all 250ms ease-in-out;
 }
 .navbar .navbar-Wrap .navbar-Links ul li a {
   text-decoration: none;
@@ -108,6 +109,10 @@ body {
 .navbar.active {
   height: 20vh;
   transform: translateY(-99%);
+}
+
+li.active {
+  display: flex;
 }
 
 .nav-Btn-Line.active {
