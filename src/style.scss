@@ -253,15 +253,21 @@ body {
         color: #a79a2d;
         font-size: 15rem;
         position: absolute;
-        left: 50%;
-        transform: translate(-50%);
+        left: 45%;
+        transform: translate(-45%);
         filter: drop-shadow(5px 5px 1px black);
-        transition: all 500ms ease-in-out;
+        transition: all 200ms ease-in-out;
         opacity: 0;
+        padding: 0;
+        margin: 0;
+        transform: scale(2);
       }
 
       #header-Icons.active {
+        transform: scale(1);
         opacity: 1;
+        padding: 0;
+        margin: 0;
       }
     }
   }
