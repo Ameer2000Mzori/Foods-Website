@@ -300,5 +300,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book {
+  height: 250px;
+  width: 150px;
+}
 
 /*# sourceMappingURL=style.css.map */

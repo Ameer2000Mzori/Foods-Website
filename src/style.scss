@@ -359,6 +359,7 @@ body {
     .meals-Bottom {
       width: 100%;
       height: 70%;
+
       .meals-Bottom-Wrap {
         height: 90%;
         width: 90%;
@@ -367,6 +368,11 @@ body {
         text-align: center;
         align-items: center;
         justify-content: center;
+
+        .meal-Book {
+          height: 250px;
+          width: 150px;
+        }
       }
     }
   }
