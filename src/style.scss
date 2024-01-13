@@ -379,6 +379,19 @@ body {
           text-align: center;
           align-items: center;
           justify-content: space-around;
+          transform: rotate(2deg);
+          position: relative;
+
+          &::before {
+            position: absolute;
+            content: "";
+            left: -10px;
+            bottom: 5px;
+            background-color: #8f8317;
+            height: 100%;
+            width: 10px;
+            transform: skewY(40deg);
+          }
         }
       }
     }
