@@ -475,7 +475,7 @@ body {
 }
 //  menu
 .menu {
-  height: 100vh;
+  height: clamp(500px, 100%, 1500px);
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -493,8 +493,10 @@ body {
     justify-content: center;
 
     .menu-Top {
+      margin-top: 5rem;
       height: 20%;
       width: 100%;
+      margin-bottom: 5rem;
       .menu-Top-Title-Wrap {
         .menu-Title-Text {
           font-size: 7rem;
@@ -511,16 +513,19 @@ body {
     .menu-Bottom {
       height: 70%;
       width: 100%;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
 
       .menu-Bottom-Wrap {
-        height: 100%;
-        width: 100%;
+        height: 90%;
+        width: 90%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         gap: 4rem;
+        flex-wrap: wrap;
 
         .menu-Card {
           margin: 1rem;
