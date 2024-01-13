@@ -246,21 +246,29 @@ body {
 }
 .meals {
   height: 100vh;
+  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  display: flex;
   background-color: #222;
 }
 .meals .meals-Wrap {
   width: 90%;
   height: 90%;
   display: flex;
+  flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+}
+.meals .meals-Wrap .meals-Top {
+  height: 30%;
+  width: 100%;
+}
+.meals .meals-Wrap .meals-Bottom {
+  width: 100%;
+  height: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */
