@@ -22,6 +22,7 @@ body {
   height: 14vh;
   transition: all 500ms ease-in-out;
   background-color: #000;
+  z-index: 10;
 
   .navbar-Wrap {
     width: 90%;
@@ -130,9 +131,11 @@ body {
 
 .nav-Btn-Line.active {
   height: 80%;
+  z-index: 1;
 
   .nav-Btn-Box {
     top: 90%;
+    z-index: 1;
   }
 }
 //  navbar responsvness
@@ -159,32 +162,35 @@ body {
         }
       }
     }
-
-    .nav-Btn-Line {
-      position: absolute;
-      height: 110%;
-      background-color: black;
-      width: 5px;
-      top: 50%;
-      left: 10%;
-      transition: all 500ms ease-in-out;
-
-      .nav-Btn-Box {
-        position: absolute;
-        background-color: black;
-        height: 50px;
-        border-radius: 15px 15px 5px 5px;
-        width: 40px;
-        position: relative;
-        top: 100%;
-        left: 50%;
-        transform: translate(-50%);
-        transition: all 100ms ease-in-out;
-      }
-    }
   }
 }
 
 @media screen and (max-width: 900px) {
-  // size 768px
+  .navbar {
+    .navbar-Wrap {
+      z-index: 5;
+      .navbar-Links {
+        ul {
+          gap: 25px;
+
+          li {
+            a {
+              font-size: 1rem;
+              -webkit-text-stroke: rgb(88, 15, 15) 0px;
+            }
+
+            #nav-Icons {
+              font-size: 1rem;
+              -webkit-text-stroke: rgb(88, 15, 15) 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .nav-Btn-Line.active {
+    height: 100%;
+    z-index: 1;
+  }
 }
