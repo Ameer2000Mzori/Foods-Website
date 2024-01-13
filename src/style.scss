@@ -521,6 +521,16 @@ body {
         align-items: center;
         justify-content: space-between;
         gap: 4rem;
+
+        .menu-Card {
+          margin: 1rem;
+          height: 250px;
+          width: 400px;
+          display: block;
+          border: solid white 2px;
+          box-shadow: 0.2rem 0.3rem #2748ff, 0.3rem 0.4rem #851212,
+            0.4rem 0.5rem #838512;
+        }
       }
     }
   }
