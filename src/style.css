@@ -400,7 +400,7 @@ body {
   justify-content: center;
 }
 .menu .menu-Wrap .menu-Top {
-  height: 30%;
+  height: 20%;
   width: 100%;
 }
 .menu .menu-Wrap .menu-Top .menu-Top-Title-Wrap .menu-Title-Text {
@@ -413,8 +413,18 @@ body {
   color: white;
 }
 .menu .menu-Wrap .menu-Bottom {
-  height: 60%;
+  height: 70%;
   width: 100%;
+}
+.menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */

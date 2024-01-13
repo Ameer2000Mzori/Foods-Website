@@ -493,7 +493,7 @@ body {
     justify-content: center;
 
     .menu-Top {
-      height: 30%;
+      height: 20%;
       width: 100%;
       .menu-Top-Title-Wrap {
         .menu-Title-Text {
@@ -509,8 +509,19 @@ body {
     }
 
     .menu-Bottom {
-      height: 60%;
+      height: 70%;
       width: 100%;
+
+      .menu-Bottom-Wrap {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        gap: 4rem;
+      }
     }
   }
 }
