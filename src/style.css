@@ -323,5 +323,15 @@ body {
   width: 10px;
   transform: skewY(40deg);
 }
+.meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book::after {
+  position: absolute;
+  content: "";
+  top: -10px;
+  left: -5px;
+  background-color: #8f8317;
+  height: 10px;
+  width: 100%;
+  transform: skewX(40deg);
+}
 
 /*# sourceMappingURL=style.css.map */

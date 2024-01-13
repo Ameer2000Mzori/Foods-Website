@@ -392,6 +392,17 @@ body {
             width: 10px;
             transform: skewY(40deg);
           }
+
+          &::after {
+            position: absolute;
+            content: "";
+            top: -10px;
+            left: -5px;
+            background-color: #8f8317;
+            height: 10px;
+            width: 100%;
+            transform: skewX(40deg);
+          }
         }
       }
     }
