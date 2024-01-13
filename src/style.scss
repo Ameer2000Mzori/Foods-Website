@@ -290,5 +290,21 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  // 768px
+  .header {
+    .header-Wrap {
+      gap: 0;
+
+      .header-Titles-Wrap {
+        height: 15%;
+        .header-Title-Text {
+          font-size: 2rem;
+          -webkit-text-stroke: white 2px;
+        }
+
+        #header-Icons {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
 }

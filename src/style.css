@@ -229,5 +229,20 @@ body {
     font-size: 10rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .header .header-Wrap {
+    gap: 0;
+  }
+  .header .header-Wrap .header-Titles-Wrap {
+    height: 15%;
+  }
+  .header .header-Wrap .header-Titles-Wrap .header-Title-Text {
+    font-size: 2rem;
+    -webkit-text-stroke: white 2px;
+  }
+  .header .header-Wrap .header-Titles-Wrap #header-Icons {
+    font-size: 5rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
