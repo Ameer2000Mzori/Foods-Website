@@ -22,20 +22,24 @@ const removeClassesNav = () => {
 const addClassesNav = () => {
   navbarEl.classList.add("active");
   navBtnLine.classList.add("active");
+  liElements.forEach((liElement) => {
+    liElement.classList.remove("active");
+  });
 };
 
 // show navLinks slowly one by each
 const addLiElementsClasses = () => {
   let liElementsCount = 0;
   let liElementInterval = setInterval(() => {
-    if (liElementsCount < liElements.length) {
+    if (liElements.length > liElementsCount) {
+      liElements[liElementsCount].classList.add("active");
       liElementsCount++;
-      liElements[liElements].classList.remove("active");
     } else {
       clearInterval(liElementInterval);
       liElementsCount = 0;
     }
   }, 200);
 };
+
 // events
 navBtnBox.addEventListener("click", openNav);
