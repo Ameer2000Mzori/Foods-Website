@@ -89,25 +89,48 @@ body {
 
   .nav-Btn-Line {
     position: absolute;
-    height: 60px;
+    height: 110%;
     background-color: black;
     width: 5px;
-    bottom: -40%;
+    top: 50%;
     left: 10%;
+    transition: all 500ms ease-in-out;
 
     .nav-Btn-Box {
+      position: absolute;
       background-color: black;
       height: 50px;
-      border-radius: 15px 15px 3px 3px;
+      border-radius: 15px 15px 5px 5px;
       width: 40px;
       position: relative;
-      top: 50px;
+      top: 100%;
       left: 50%;
       transform: translate(-50%);
+      transition: all 100ms ease-in-out;
+    }
+  }
+
+  .nav-Btn-Line:hover {
+    cursor: pointer;
+
+    .nav-Btn-Box {
+      filter: drop-shadow(1px 1px 5px black);
+
+      &:active {
+        filter: drop-shadow(1px 1px 5px rgb(190, 189, 189));
+      }
     }
   }
 }
 
-.navbar:hover {
+.navbar.active {
   transform: translateY(-99%);
+}
+
+.nav-Btn-Line.active {
+  height: 70%;
+
+  .nav-Btn-Box {
+    top: 90%;
+  }
 }
