@@ -51,6 +51,7 @@ body {
   color: white;
   -webkit-text-stroke: white 1px;
   font-weight: 600;
+  transition: all 250ms ease-in-out;
 }
 .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
   font-size: 2.5rem;
@@ -58,6 +59,18 @@ body {
   color: white;
   -webkit-text-stroke: rgb(88, 15, 15) 1px;
   font-weight: 600;
+  transition: all 250ms ease-in-out;
+}
+.navbar .navbar-Wrap .navbar-Links ul li:hover {
+  cursor: pointer;
+}
+.navbar .navbar-Wrap .navbar-Links ul li:hover a {
+  color: rgb(82, 81, 81);
+  -webkit-text-stroke: rgb(82, 81, 81) 1px;
+}
+.navbar .navbar-Wrap .navbar-Links ul li:hover #nav-Icons {
+  color: rgb(82, 81, 81);
+  -webkit-text-stroke: rgb(82, 81, 81) 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
