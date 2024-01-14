@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lemon&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
-
 body {
   padding: 0;
   margin: 0;
@@ -21,7 +20,6 @@ body {
   transition: all 150ms ease-in;
   transform: translateY(0%);
 }
-
 .navbar .navbar-Wrap {
   width: 90%;
   height: 90%;
@@ -35,11 +33,9 @@ body {
   transition: all 150ms ease-in;
   padding: 15px;
 }
-
 .navbar .navbar-Wrap .navbar-Links {
   display: flex;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul {
   display: flex;
   list-style: none;
@@ -51,7 +47,6 @@ body {
   gap: 25px;
   transition: all 150ms ease-in;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li {
   opacity: 0;
   display: flex;
@@ -60,7 +55,6 @@ body {
   flex-direction: column;
   transition: all 150ms ease-in;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li a {
   text-decoration: none;
   font-family: "Nunito", sans-serif;
@@ -71,7 +65,6 @@ body {
   font-weight: 600;
   transition: all 150ms ease-in;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
   font-size: 3.1rem;
   font-style: bold;
@@ -80,26 +73,21 @@ body {
   font-weight: 600;
   transition: all 150ms ease-in;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li:hover {
   cursor: pointer;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li:hover a {
   color: rgb(82, 81, 81);
   -webkit-text-stroke: rgb(82, 81, 81) 1px;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li:hover #nav-Icons {
   color: rgb(82, 81, 81);
   -webkit-text-stroke: rgb(82, 81, 81) 1px;
 }
-
 .navbar .navbar-Wrap .navbar-Links ul li.active {
   display: flex;
   opacity: 1;
 }
-
 .navbar .nav-Btn-Line {
   position: absolute;
   height: 90%;
@@ -110,7 +98,6 @@ body {
   transition: all 150ms ease-in;
   z-index: 1;
 }
-
 .navbar .nav-Btn-Line .nav-Btn-Box {
   background-color: black;
   height: 50px;
@@ -123,7 +110,6 @@ body {
   transition: all 150ms ease-in;
   z-index: 1;
 }
-
 .navbar .nav-Btn-Line:hover {
   cursor: pointer;
 }
@@ -132,11 +118,9 @@ body {
   height: 20vh;
   transform: translateY(-55%);
 }
-
 .navbar.active .nav-Btn-Line.active {
   height: 65%;
 }
-
 .navbar.active .nav-Btn-Line.active .nav-Btn-Box {
   top: 90%;
 }
@@ -145,48 +129,38 @@ body {
   .navbar .navbar-Wrap .navbar-Links ul {
     gap: 35px;
   }
-
   .navbar .navbar-Wrap .navbar-Links ul li a {
     font-size: 1.7rem;
   }
-
   .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
     font-size: 2.1rem;
   }
-
   .navbar .nav-Btn-Line.active {
     height: auto;
   }
-
   .navbar .nav-Btn-Line.active .nav-Btn-Box {
     top: auto;
   }
 }
-
 @media screen and (max-width: 768px) {
   .navbar .navbar-Wrap .navbar-Links ul {
     gap: 25px;
   }
-
   .navbar .navbar-Wrap .navbar-Links ul li a {
     font-size: 1rem;
     -webkit-text-stroke: white 0;
   }
-
   .navbar .navbar-Wrap .navbar-Links ul li #nav-Icons {
     font-size: 1rem;
     -webkit-text-stroke: white 0;
   }
-
   .navbar .nav-Btn-Line.active {
     height: auto;
   }
-
   .navbar .nav-Btn-Line.active .nav-Btn-Box {
     top: auto;
   }
 }
-
 .header {
   height: 100vh;
   display: flex;
@@ -196,7 +170,6 @@ body {
   justify-content: center;
   background-color: #333;
 }
-
 .header .header-Wrap {
   width: 90%;
   height: 90%;
@@ -207,7 +180,6 @@ body {
   justify-content: center;
   gap: 3rem;
 }
-
 .header .header-Wrap .header-Titles-Wrap {
   position: relative;
   width: 100%;
@@ -219,7 +191,6 @@ body {
   justify-content: center;
   overflow: hidden;
 }
-
 .header .header-Wrap .header-Titles-Wrap .header-Title-Text {
   font-size: 7rem;
   -webkit-text-stroke: white 7px;
@@ -229,7 +200,6 @@ body {
   font-family: "Nunito", sans-serif;
   color: white;
 }
-
 .header .header-Wrap .header-Titles-Wrap #header-Icons {
   color: #a79a2d;
   transform: scale(2);
@@ -241,7 +211,6 @@ body {
   padding: 0;
   margin: 0;
 }
-
 .header .header-Wrap .header-Titles-Wrap #header-Icons.active {
   transform: scale(1);
   opacity: 1;
@@ -253,35 +222,28 @@ body {
   .header .header-Wrap {
     gap: 2rem;
   }
-
   .header .header-Wrap .header-Titles-Wrap .header-Title-Text {
     font-size: 4rem;
   }
-
   .header .header-Wrap .header-Titles-Wrap #header-Icons {
     font-size: 10rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .header .header-Wrap {
     gap: 0;
   }
-
   .header .header-Wrap .header-Titles-Wrap {
     height: 15%;
   }
-
   .header .header-Wrap .header-Titles-Wrap .header-Title-Text {
     font-size: 2rem;
     -webkit-text-stroke: white 2px;
   }
-
   .header .header-Wrap .header-Titles-Wrap #header-Icons {
     font-size: 5rem;
   }
 }
-
 .meals {
   height: clamp(400px, 100%, 1000px);
   display: flex;
@@ -291,7 +253,6 @@ body {
   flex-direction: column;
   background-color: #222;
 }
-
 .meals .meals-Wrap {
   width: 90%;
   height: 90%;
@@ -302,7 +263,6 @@ body {
   justify-content: center;
   gap: 10rem;
 }
-
 .meals .meals-Wrap .meals-Top {
   height: 30%;
   width: 100%;
@@ -312,7 +272,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .meals .meals-Wrap .meals-Top .meals-Top-Title-Wrap {
   display: flex;
   margin-top: 5rem;
@@ -321,7 +280,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .meals .meals-Wrap .meals-Top .meals-Top-Title-Wrap .header-Title-Text {
   font-size: 7rem;
   -webkit-text-stroke: white 5px;
@@ -331,13 +289,11 @@ body {
   font-family: "Nunito", sans-serif;
   color: white;
 }
-
 .meals .meals-Wrap .meals-Bottom {
   width: 100%;
   height: 70%;
   margin-bottom: 5rem;
 }
-
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap {
   height: 90%;
   width: 90%;
@@ -349,7 +305,6 @@ body {
   flex-wrap: wrap;
   gap: 5rem;
 }
-
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book {
   height: 450px;
   width: 250px;
@@ -366,23 +321,19 @@ body {
   filter: drop-shadow(15px 15px 15px black);
   margin: 1rem;
 }
-
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Img-Wrap {
   height: 50%;
   width: 100%;
 }
-
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Img-Wrap .meal-Book-Img {
   height: 100%;
   object-fit: cover;
 }
-
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Texts-Wrap .meal-Book-Name {
   font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
   -webkit-text-stroke: black 1px;
 }
-
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Texts-Wrap .meal-Book-Btn {
   width: 150px;
   height: 35px;
@@ -395,12 +346,10 @@ body {
   -webkit-text-stroke: #000 1px;
   transition: all 250ms ease-in-out;
 }
-
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Texts-Wrap .meal-Book-Btn:hover {
   cursor: pointer;
   background-color: #818181;
 }
-
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book::before {
   position: absolute;
   content: "";
@@ -411,7 +360,6 @@ body {
   width: 10px;
   transform: skewY(40deg);
 }
-
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book::after {
   position: absolute;
   content: "";
@@ -422,7 +370,6 @@ body {
   width: 100%;
   transform: skewX(40deg);
 }
-
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book:hover {
   cursor: pointer;
   transform: translateY(-5%);
@@ -434,7 +381,6 @@ body {
     -webkit-text-stroke: white 3px;
   }
 }
-
 .menu {
   height: clamp(500px, 100%, 1500px);
   display: flex;
@@ -444,7 +390,6 @@ body {
   justify-content: center;
   background-color: #333;
 }
-
 .menu .menu-Wrap {
   width: 90%;
   height: 90%;
@@ -454,14 +399,12 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .menu .menu-Wrap .menu-Top {
   margin-top: 5rem;
   height: 20%;
   width: 100%;
   margin-bottom: 5rem;
 }
-
 .menu .menu-Wrap .menu-Top .menu-Top-Title-Wrap .menu-Title-Text {
   font-size: 7rem;
   -webkit-text-stroke: white 7px;
@@ -471,14 +414,12 @@ body {
   font-family: "Nunito", sans-serif;
   color: white;
 }
-
 .menu .menu-Wrap .menu-Bottom {
   height: 70%;
   width: 100%;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap {
   height: 90%;
   width: 90%;
@@ -490,7 +431,6 @@ body {
   gap: 4rem;
   flex-wrap: wrap;
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card {
   margin: 1rem;
   height: 250px;
@@ -505,7 +445,6 @@ body {
   transition: all 250ms ease-in-out;
   overflow: hidden;
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Imgs {
   position: absolute;
   top: 0;
@@ -514,7 +453,6 @@ body {
   height: 100%;
   width: 100%;
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Title-Wrap {
   width: 90%;
   text-align: start;
@@ -524,14 +462,12 @@ body {
   position: relative;
   z-index: 2;
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Title-Wrap .menu-Card-Text-1 {
   font-family: "Nunito", sans-serif;
   font-size: 1.2rem;
   color: white;
   backdrop-filter: brightness(100%) blur(0);
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Title-Wrap .menu-Card-Text-2 {
   font-family: "Nunito", sans-serif;
   font-size: 1.1rem;
@@ -540,7 +476,6 @@ body {
   font-weight: 500;
   backdrop-filter: brightness(100%) blur(0);
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card::before {
   content: "";
   position: absolute;
@@ -553,7 +488,6 @@ body {
   background-color: rgba(36, 36, 36, 0.678);
   transition: all 250ms ease-in-out;
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card::after {
   content: "";
   position: absolute;
@@ -565,25 +499,21 @@ body {
   background-color: white;
   transition: all 500ms ease-in-out;
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card:hover {
   box-shadow: 0.2rem 0.5rem 0.4rem #2748ff, 0.3rem 0.5rem 0.5rem #851212, 0.4rem 0.5rem 0.6rem #838512;
   transform: translateY(-5%);
   cursor: pointer;
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card:hover .menu-Card-Title-Wrap {
   opacity: 1;
   position: relative;
   z-index: 15;
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card:hover::before {
   width: 100%;
   height: 100%;
   filter: blur(100);
 }
-
 .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card:hover::after {
   width: 100%;
 }
@@ -593,7 +523,6 @@ body {
     font-size: 3.6rem;
     -webkit-text-stroke: white 2px;
   }
-
   .menu .menu-Wrap .menu-Bottom {
     display: flex;
     flex-direction: column;
@@ -602,19 +531,26 @@ body {
     justify-content: center;
     overflow: hidden;
   }
-
   .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap {
     height: 95%;
     width: 95%;
   }
-
   .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Title-Wrap .menu-Card-Text-1 {
     font-size: 0.9rem;
     color: white;
   }
-
   .menu .menu-Wrap .menu-Bottom .menu-Bottom-Wrap .menu-Card .menu-Card-Title-Wrap .menu-Card-Text-2 {
     font-size: 0.9rem;
     color: white;
   }
 }
+.contact {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
