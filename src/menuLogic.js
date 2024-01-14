@@ -67,5 +67,8 @@ class showData {
 }
 
 // functions
-
+arrayObjectData.forEach((menu) => {
+  let newShowData = new showData(menu.title, menu.description);
+  newShowData.insertData();
+});
 // events
