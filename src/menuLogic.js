@@ -39,6 +39,13 @@ const arrayObjectData = [
 
 // classes
 
+class showData {
+  constructeur(title, description) {
+    this.title = title;
+    this.description = description;
+  }
+}
+
 // functions
 
 // events
