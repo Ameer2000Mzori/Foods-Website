@@ -670,6 +670,16 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  height: 8vh;
+}
+.footer .footer-Wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 95%;
 }
 
 /*# sourceMappingURL=style.css.map */
