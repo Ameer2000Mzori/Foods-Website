@@ -721,17 +721,26 @@ body {
       }
     }
 
-    .contact-Right {
+    .contact-Right,
+    .contact-Right-Input-Wrap {
       display: flex;
       flex-direction: column;
       text-align: center;
       align-items: center;
       justify-content: center;
       position: relative;
-      padding: 0;
-      margin: 0;
       width: 250px;
       height: 50px;
+
+      .contact-Right-Text-Input {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding-left: 15px;
+        margin: 0;
+        outline: none;
+        border: none;
+      }
     }
   }
 }
