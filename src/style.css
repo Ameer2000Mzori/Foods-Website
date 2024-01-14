@@ -596,8 +596,8 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 250px;
-  height: 50px;
+  width: 350px;
+  height: 40px;
 }
 .contact .contact-Wrap .contact-Right .contact-Right-Text-Input,
 .contact .contact-Wrap .contact-Right-Input-Wrap .contact-Right-Text-Input {
@@ -606,19 +606,25 @@ body {
   height: 100%;
   padding-left: 15px;
   margin: 0;
+  border: solid #838512 2px;
   outline: none;
-  border: none;
 }
 .contact .contact-Wrap .contact-Right .contact-Right-Btn,
 .contact .contact-Wrap .contact-Right-Input-Wrap .contact-Right-Btn {
   position: absolute;
-  height: 45px;
-  width: 45px;
+  height: 35px;
+  width: 35px;
   right: 0;
   color: #838512;
   background-color: #333;
   border: none;
   font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+.contact .contact-Wrap .contact-Right .contact-Right-Btn:active,
+.contact .contact-Wrap .contact-Right-Input-Wrap .contact-Right-Btn:active {
+  transform: scale(0.9);
 }
 
 /*# sourceMappingURL=style.css.map */

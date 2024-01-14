@@ -729,8 +729,8 @@ body {
       align-items: center;
       justify-content: center;
       position: relative;
-      width: 250px;
-      height: 50px;
+      width: 350px;
+      height: 40px;
 
       .contact-Right-Text-Input {
         position: absolute;
@@ -738,19 +738,25 @@ body {
         height: 100%;
         padding-left: 15px;
         margin: 0;
+        border: solid #838512 2px;
         outline: none;
-        border: none;
       }
 
       .contact-Right-Btn {
         position: absolute;
-        height: 45px;
-        width: 45px;
+        height: 35px;
+        width: 35px;
         right: 0;
         color: #838512;
         background-color: #333;
         border: none;
         font-size: 1.5rem;
+        cursor: pointer;
+        transition: all 150ms ease-in-out;
+
+        &:active {
+          transform: scale(0.9);
+        }
       }
     }
   }
