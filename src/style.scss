@@ -675,7 +675,7 @@ body {
 }
 // contact
 .contact {
-  height: 25vh;
+  height: 15vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -688,7 +688,7 @@ body {
     flex-direction: row;
     text-align: center;
     align-items: center;
-    width: 70%;
+    width: 65%;
     height: 90%;
     justify-content: space-between;
 
@@ -719,6 +719,19 @@ body {
         font-size: 1rem;
         font-weight: 600;
       }
+    }
+
+    .contact-Right {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 0;
+      margin: 0;
+      width: 250px;
+      height: 50px;
     }
   }
 }
