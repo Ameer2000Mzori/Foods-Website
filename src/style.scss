@@ -533,9 +533,7 @@ body {
           height: 250px;
           width: 400px;
           border: solid white 2px;
-          box-shadow:
-            0.2rem 0.3rem #2748ff,
-            0.3rem 0.4rem #851212,
+          box-shadow: 0.2rem 0.3rem #2748ff, 0.3rem 0.4rem #851212,
             0.4rem 0.5rem #838512;
           position: relative;
           display: flex;
@@ -607,9 +605,7 @@ body {
         }
 
         .menu-Card:hover {
-          box-shadow:
-            0.2rem 0.5rem 0.4rem #2748ff,
-            0.3rem 0.5rem 0.5rem #851212,
+          box-shadow: 0.2rem 0.5rem 0.4rem #2748ff, 0.3rem 0.5rem 0.5rem #851212,
             0.4rem 0.5rem 0.6rem #838512;
           transform: translateY(-5%);
           cursor: pointer;
@@ -810,4 +806,12 @@ body {
       }
     }
   }
+}
+// footer
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
