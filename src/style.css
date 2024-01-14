@@ -671,6 +671,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 8vh;
+  background-color: #222;
 }
 .footer .footer-Wrap {
   display: flex;
@@ -680,6 +681,12 @@ body {
   justify-content: center;
   width: 95%;
   height: 95%;
+}
+.footer .footer-Wrap .footer-Text-1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: aliceblue;
 }
 
 /*# sourceMappingURL=style.css.map */
