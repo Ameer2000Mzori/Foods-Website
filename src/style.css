@@ -545,12 +545,22 @@ body {
   }
 }
 .contact {
-  height: 10vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
+  background-color: #222;
+}
+.contact .contact-Wrap {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=style.css.map */
