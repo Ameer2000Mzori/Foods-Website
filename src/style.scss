@@ -771,5 +771,40 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  // 900px
+  .contact {
+    height: 25vh;
+
+    .contact-Wrap {
+      flex-direction: column;
+      width: 95%;
+      justify-content: space-evenly;
+
+      .contact-Left {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        .contact-Left-Text-1 {
+          font-size: 1.5rem;
+        }
+
+        .contact-Left-Text-2 {
+          font-size: 0.8rem;
+        }
+      }
+
+      .contact-Right,
+      .contact-Right-Input-Wrap {
+        width: 250px;
+        height: 30px;
+
+        .contact-Right-Btn {
+          height: 25px;
+          width: 25px;
+
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }

@@ -632,5 +632,37 @@ body {
     width: 95%;
   }
 }
+@media screen and (max-width: 900px) {
+  .contact {
+    height: 25vh;
+  }
+  .contact .contact-Wrap {
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-evenly;
+  }
+  .contact .contact-Wrap .contact-Left {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .contact-Wrap .contact-Left .contact-Left-Text-1 {
+    font-size: 1.5rem;
+  }
+  .contact .contact-Wrap .contact-Left .contact-Left-Text-2 {
+    font-size: 0.8rem;
+  }
+  .contact .contact-Wrap .contact-Right,
+  .contact .contact-Wrap .contact-Right-Input-Wrap {
+    width: 250px;
+    height: 30px;
+  }
+  .contact .contact-Wrap .contact-Right .contact-Right-Btn,
+  .contact .contact-Wrap .contact-Right-Input-Wrap .contact-Right-Btn {
+    height: 25px;
+    width: 25px;
+    font-size: 1rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
