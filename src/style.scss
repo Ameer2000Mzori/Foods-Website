@@ -5,6 +5,10 @@ $fontOne: "Lemon", serif;
 $fontTwo: "Roboto", sans-serif;
 $fontThree: "Nunito", sans-serif;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
