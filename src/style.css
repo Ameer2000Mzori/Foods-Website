@@ -374,7 +374,7 @@ body {
 
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Img-Wrap .meal-Book-Img {
   height: 100%;
-  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .meals .meals-Wrap .meals-Bottom .meals-Bottom-Wrap .meal-Book .meal-Book-Texts-Wrap .meal-Book-Name {
