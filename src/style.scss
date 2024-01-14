@@ -741,6 +741,17 @@ body {
         outline: none;
         border: none;
       }
+
+      .contact-Right-Btn {
+        position: absolute;
+        height: 45px;
+        width: 45px;
+        right: 0;
+        color: #838512;
+        background-color: #333;
+        border: none;
+        font-size: 1.5rem;
+      }
     }
   }
 }
