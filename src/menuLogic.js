@@ -40,10 +40,9 @@ const arrayObjectData = [
 // classes
 
 class ShowData {
-  constructeur(title, description) {
+  constructor(title, description) {
     this.title = title;
     this.description = description;
-    // this.img = img;
   }
 
   insertData() {
@@ -51,27 +50,21 @@ class ShowData {
     menuCardEl.classList.add("menu-Card");
 
     menuCardEl.innerHTML = `
-    <img
-    class="menu-Card-Imgs"
-    src=""
-    alt=""
-  />
-  <div class="menu-Card-Title-Wrap">
-    <h1 class="menu-Card-Text-1">${this.title}</h1>
-  </div>
-  <div class="menu-Card-Title-Wrap">
-    <h1 class="menu-Card-Text-2">${this.description}</h1>
-  </div>`;
+    // <img  class="menu-Card-Imgs"  src=""  alt=""  />
+    <div class="menu-Card-Title-Wrap">
+      <h1 class="menu-Card-Text-1">${this.title}</h1>
+    </div>
+    <div class="menu-Card-Title-Wrap">
+      <h1 class="menu-Card-Text-2">${this.description}</h1>
+    </div>`;
 
     menuBottomWrap.appendChild(menuCardEl);
   }
 }
 
 // functions
-arrayObjectData.forEach((menu) => {
-  console.log(menu.title, menu.description);
-  let newShowData = new ShowData(menu.title, menu.description);
-  console.log();
-  newShowData.insertData();
+arrayObjectData.forEach((data) => {
+  const newsShowData = new ShowData(data.title, data.description);
+  console.log(newsShowData);
+  newsShowData.insertData();
 });
-// events
