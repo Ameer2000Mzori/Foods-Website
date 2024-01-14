@@ -44,6 +44,26 @@ class showData {
     this.title = title;
     this.description = description;
   }
+
+  insertData() {
+    const menuCardEl = document.createElement("div");
+    menuCardEl.classList.add("menu-Card");
+
+    menuCardEl.innerHTML = `
+    <img
+    class="menu-Card-Imgs"
+    src="./assets/gallery-img-1.jpg"
+    alt=""
+  />
+  <div class="menu-Card-Title-Wrap">
+    <h1 class="menu-Card-Text-1">${this.title}</h1>
+  </div>
+  <div class="menu-Card-Title-Wrap">
+    <h1 class="menu-Card-Text-2">${this.description}</h1>
+  </div>`;
+
+    menuBottomWrap.appendChild(menuCardEl);
+  }
 }
 
 // functions
