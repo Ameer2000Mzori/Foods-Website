@@ -627,4 +627,10 @@ body {
   transform: scale(0.9);
 }
 
+@media screen and (max-width: 1150px) {
+  .contact .contact-Wrap {
+    width: 95%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

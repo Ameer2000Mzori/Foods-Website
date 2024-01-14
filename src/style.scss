@@ -761,3 +761,15 @@ body {
     }
   }
 }
+//  contact responsvness
+@media screen and (max-width: 1150px) {
+  .contact {
+    .contact-Wrap {
+      width: 95%;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  // 900px
+}
